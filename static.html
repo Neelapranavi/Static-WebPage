@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Choose Books or Food</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff6f61;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px;
+    }
+
+    .box {
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+      width: 40%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ff6f61;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  📚 Choose Your Favorite Books or 🍕 Food
+</header>
+
+<div class="container">
+  <div class="box">
+    <h2>📘 Books</h2>
+    <ul>
+      <li>Harry Potter</li>
+      <li>The Alchemist</li>
+      <li>Atomic Habits</li>
+      <li>Wings of Fire</li>
+      <li>The Hobbit</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>🍔 Food</h2>
+    <ul>
+      <li>Pizza</li>
+      <li>Burger</li>
+      <li>Fried Rice</li>
+      <li>Dosa</li>
+      <li>Ice Cream</li>
+    </ul>
+  </div>
+</div>
+
+
+
+</body>
+</html>
